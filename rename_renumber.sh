@@ -9,3 +9,8 @@ for i in *.*; do
     mv -i -- "$i" "$renameArg"
     counter=$((counter+1))
 done
+
+#USAGE:
+#...$ sh rename_renumber.sh filename ExtensionName
+
+
